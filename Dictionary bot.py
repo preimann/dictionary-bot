@@ -13,7 +13,6 @@ r1 = requests.get(url_lemma, headers = {'app_id': app_id, 'app_key': app_key})
 Lemmatron_response = r1.json()
 lemma = Lemmatron_response['results'][0]['lexicalEntries'][0]['inflectionOf'][0]['id']
 
-#test
 if lemma != inflected_form:
     print "The root of that word is", lemma
 else:
