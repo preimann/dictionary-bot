@@ -1,6 +1,6 @@
 # dictionary-bot
 
-This is a simple dictioanry lookup bot that uses the Oxford Dictionaries API
+This is a simple dictionary lookup bot that uses the Oxford Dictionaries API
 
 https://developer.oxforddictionaries.com
 
