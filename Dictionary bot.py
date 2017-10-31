@@ -1,8 +1,8 @@
 import requests
 import json
 
-app_id = 'b426db73'
-app_key = '92204a5b7cd82aff4044de4bcd5591b7'
+app_id = 'your app_id'
+app_key = 'your app key'
 
 language = 'en'
 inflected_form = str(raw_input("Type an inflected form here: "))
